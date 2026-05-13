@@ -1,2 +1,2 @@
-# Online-Boxplot-
+# Online-Boxplot
 Online boxplot derived outlier detection
