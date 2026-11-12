@@ -134,7 +134,18 @@ against statsmodels, memory bounds, NaN handling, and the numbers in the table a
 
 ## Citation
 
-If you use this package, please cite the paper above. See `CITATION.cff`.
+If you use this package, please cite the paper above. 
+    @article{mazarei2025online,
+    title={Online boxplot derived outlier detection},
+    author={Mazarei, Arefeh and Sousa, Ricardo and Mendes-Moreira, Jo{\~a}o and Molchanov, Slavo and Ferreira, Hugo Miguel},
+    journal={International Journal of Data Science and Analytics},
+    volume={19},
+    number={1},
+    pages={83--97},
+    year={2025},
+    publisher={Springer},
+    doi={10.1007/s41060-024-00559-0}
+    }
 
 ## Licence
 
