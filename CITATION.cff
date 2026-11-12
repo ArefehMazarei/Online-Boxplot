@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper that describes the method."
+title: "online-boxplot"
+type: software
+authors:
+  - family-names: Mazarei
+    given-names: Arefeh
+preferred-citation:
+  type: article
+  title: "Online boxplot derived outlier detection"
+  authors:
+    - family-names: Mazarei
+      given-names: Arefeh
+    - family-names: Sousa
+      given-names: Ricardo
+    - family-names: Mendes-Moreira
+      given-names: João
+    - family-names: Molchanov
+      given-names: Slavo
+    - family-names: Ferreira
+      given-names: Hugo Miguel
+  journal: "International Journal of Data Science and Analytics"
+  volume: 19
+  start: 83
+  end: 97
+  year: 2025
+  doi: "10.1007/s41060-024-00559-0"

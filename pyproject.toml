@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "online-boxplot"
+version = "0.1.0"
+description = "Online boxplot outlier detection for data streams, with batch baselines (Tukey, SIQR, ratio-skewed, adjusted boxplot)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Arefeh Mazarei" }]
+keywords = ["outlier detection", "anomaly detection", "boxplot", "streaming", "online learning"]
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+calibrate = ["scipy"]
+plot = ["matplotlib"]
+dev = ["pytest", "scipy", "statsmodels", "matplotlib"]
+
+[project.urls]
+Paper = "https://doi.org/10.1007/s41060-024-00559-0"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
